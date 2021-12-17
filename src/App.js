@@ -7,8 +7,7 @@ function App() {
     <div className="App">
      <h1>Random Useless Facts</h1>
      <RandomFactsRender />
-     <RandomFact />
-    </div>
+     </div>
   );
 }
 
