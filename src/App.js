@@ -1,4 +1,5 @@
 import { RandomFactsRender} from '../src/pages/RandomFactsRender';
+import { RandomFact } from './components/RandomFact';
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
      <h1>Random Useless Facts</h1>
      <RandomFactsRender />
+     <RandomFact />
     </div>
   );
 }
